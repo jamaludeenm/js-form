@@ -31,18 +31,18 @@ body{
 .form{
 	padding:30px 40px;
 }
-.form-control{
+.formcontrol{
 	margin:10px;
 	padding-bottom:20px;
 	position:relative;
 	
 }
-.form-control label{
+.formcontrol label{
 	display:inline-block;
 	margin-bottom:10px;
 	width:100%
 }
-.form-control input{
+.formcontrol input{
 	border:2px solid #f0f0f0;
 	border-radius:4px;
 	display:block;
@@ -51,38 +51,38 @@ body{
 	width:100%;
 	
 }
-.form-control input:focus{
+.formcontrol input:focus{
 	outline:none;
 	border-color:#777;
 }
-.form-control.Sucess input{
+.formcontrol.Sucess input{
 	border-color:green;
 }
-.form-control.erorr input{
+.formcontrol.Error input{
 	border-color:red;
 }
-.form-control i{
+.formcontrol i{
     visibility:hidden;
     position:absolute;
 	top:30px;
 	right:10px;
 }
-.form-control i .icofont-check-circled{
+.formcontrol i .icofont-check-circled{
 	color:green;
 	visibility:visible;
 }
-.form-control.Error i .cofont-exclamation-circle{
+.formcontrol.Error i .cofont-exclamation-circle{
 	color:red;
 	visibility:visible;
 }
-.form-control small{
+.formcontrol small{
 	color:red;
 	position:absolute;
 	left:0;
 	bottom:0;
 	visibility:hidden;
 }
-.form-control.Error small{
+.formcontrol.Error small{
 	visibility:visible;
 }
 .form button{
